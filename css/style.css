@@ -1,0 +1,112 @@
+/*Fontes*/
+
+@font-face {
+    font-family: 'Playlist';
+    src: url('../font/Playlist\ Script.otf');
+}
+
+@font-face {
+    font-family: 'Playlist2';
+    src: url('../font/Playlist\ Caps.otf');
+}
+
+/*Configurando a tag Span para quando utilizar, puxar a fonte Playlist Script*/
+
+span {
+    font-family: 'Playlist', Times, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/*Configurações gerais para elementos do site*/
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*Estilizando cabeçalho/header/menu*/
+
+.header{
+    display: flex; 
+    justify-content: space-between; /*Espaço entre os elementos utilizando o display flex*/
+    align-items: center; /*Alinhando itens no centro do elemento */
+    flex-wrap: wrap; /*Quando a tela for muito pequena, fazer com que fique um embaixo do outro*/
+    margin: 0px;
+    background-color: #d8d8b1;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+.menu {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+/**/
+
+.chamadaprincipal {
+    background-image: url("../img/wallpaper.jpeg");
+    background-blend-mode: saturation;
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.titulo_principal{
+    font-size: 5em;
+    padding-top: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo {
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.ursos {
+    max-width: 78%;
+    margin: 0 auto;
+}
+
+/*Rodapé/Footer*/
+
+footer{
+    display: grid;
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+    color: #d8d8b1;
+    height: 100px;
+    padding: 10px 0;
+}
