@@ -146,6 +146,7 @@ body {
 }
 
 .textoproduto {
+    text-align: justify;
     grid-column: 2;
 }
 
