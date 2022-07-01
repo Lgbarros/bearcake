@@ -96,6 +96,7 @@ body {
 }
 
 .titulo_principal{
+    margin: 0;
     color: #d8d8b1;
     font-size: 4em;
     padding-top: 1.5em;
