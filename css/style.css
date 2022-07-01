@@ -20,6 +20,10 @@ span {
 
 /*Configurações gerais para elementos do site*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 ul,
 li,
@@ -29,6 +33,11 @@ p {
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -69,34 +78,81 @@ img {
     display: block;
     padding: 10px;
 }
-/**/
+
+body {
+    background-color: #d8d8b199;
+}
+
+/*Banner/Chamada principal*/
 
 .chamadaprincipal {
-    background-image: url("../img/wallpaper.jpeg");
+    background-image: url("../img/background.jpeg");
     background-blend-mode: saturation;
     background-attachment: fixed;
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 100vh;
 }
 
 .titulo_principal{
-    font-size: 5em;
-    padding-top: 1em;
-    align-items: center;
+    color: #d8d8b1;
+    font-size: 4em;
+    padding-top: 1.5em;
     text-align: center;
 }
 
 .subtitulo {
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    color: #d8d8b1;
     text-align: center;
     font-size: 2em;
 }
 
+.textoprincipal {
+    padding-left: 12%;
+    padding-right: 12%;
+    color: #d8d8b1;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+/*Conteúdo do site (GRID)*/
+
 .ursos {
+    padding: 20px 0;
     max-width: 78%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.imagemproduto {
+    grid-column: 1;
+    grid-row: 1 / 6;
+    display: block;
+}
+
+.tituloproduto {
+    font-family: 'Playlist2', Times, serif;
+    font-size: 2em;
+    grid-column: 2;
+    align-items: center;
+    text-align: center;
+}
+
+.textoproduto {
+    grid-column: 2;
+}
+
+/*Separador dos produtos*/
+.separador {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent);  
 }
 
 /*Rodapé/Footer*/
