@@ -79,6 +79,10 @@ img {
     padding: 10px;
 }
 
+.menu li a:hover{
+    color: white;
+}
+
 body {
     background-color: #d8d8b199;
 }
@@ -116,6 +120,43 @@ body {
     color: #d8d8b1;
     text-align: center;
     padding-top: 3.5em;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin: 0 auto;
+    }
+
+    .chamadaprincipal {
+        background-image: url("../img/background.jpeg");
+        background-blend-mode: saturation;
+        background-attachment: fixed;
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+    }
+
+    .titulo_principal{
+        margin: 0;
+        color: #d8d8b1;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .subtitulo {
+        color: #d8d8b1;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .textoprincipal {
+        padding-left: 12%;
+        padding-right: 12%;
+        color: #d8d8b1;
+        text-align: center;
+        padding-top: 3.5em;
+    }
 }
 
 /*Conteúdo do site (GRID)*/
