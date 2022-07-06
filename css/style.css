@@ -123,8 +123,24 @@ body {
 }
 
 @media (max-width: 600px) {
+
+    .header{
+        display: block;
+        justify-content: space-between; /*Espaço entre os elementos utilizando o display flex*/
+        align-items: center; /*Alinhando itens no centro do elemento */
+        flex-wrap: wrap; /*Quando a tela for muito pequena, fazer com que fique um embaixo do outro*/
+        background-color: #d8d8b1;
+    }
+    
     .logo {
-        margin: 0 auto;
+        margin: auto;
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .chamadaprincipal {
