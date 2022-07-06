@@ -177,6 +177,38 @@ body {
         text-align: justify;
         padding-top: 3.5em;
     }
+
+    .ursos {
+        background-color: #d8d8b1de;
+        padding: 5%;
+        /*padding: 20px 0;*/
+        /*max-width: 78%;*/
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 350px;
+        grid-gap: 20px;
+        align-items: center;
+        text-align: left;
+    }
+
+    .imagemproduto {
+        grid-column: 1;
+        grid-row: 1 / 6;
+        display: block;
+    }
+    
+    .tituloproduto {
+        font-family: 'Playlist2', Times, serif;
+        font-size: 2em;
+        grid-column: 1;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .textoproduto {
+        text-align: justify;
+        grid-column: 1;
+    }
 }
 
 /*Conteúdo do site (GRID)*/
