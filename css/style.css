@@ -124,7 +124,7 @@ body {
     padding-top: 3.5em;
 }
 
-/*Header/Cabeçalho e Banner mobile*/
+/*Header/Cabeçalho/Banner no mobile*/
 
 @media (max-width: 600px) {
 
@@ -179,35 +179,68 @@ body {
     }
 
     .ursos {
-        background-color: #d8d8b1de;
-        padding: 5%;
-        /*padding: 20px 0;*/
-        /*max-width: 78%;*/
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 350px;
-        grid-gap: 20px;
-        align-items: center;
-        text-align: left;
+        background-color: #d8d8b1de !important;
+        padding: 5% !important;
+        margin: 0 auto !important;
+        display: grid !important;
+        grid-template-columns: 350px !important;
+        grid-gap: 20px !important;
+        align-items: center !important;
+        text-align: left !important;
     }
 
     .imagemproduto {
-        grid-column: 1;
-        grid-row: 1 / 6;
-        display: block;
+        grid-column: 1 !important;
+        grid-row: 1 / 6 !important;
+        display: block !important;
     }
     
     .tituloproduto {
-        font-family: 'Playlist2', Times, serif;
-        font-size: 2em;
-        grid-column: 1;
-        align-items: center;
-        text-align: center;
+        font-family: 'Playlist2', Times, serif !important;
+        font-size: 2em !important;
+        grid-column: 1 !important;
+        align-items: center !important;
+        text-align: center !important;
     }
     
     .textoproduto {
-        text-align: justify;
-        grid-column: 1;
+        text-align: justify !important;
+        grid-column: 1 !important;
+    }
+
+    .ursos2 {
+        background-color: #bdbd89d1 !important;
+        padding: 5% !important;
+        margin: 0 auto !important;
+        display: grid !important;
+        grid-template-columns: 350px !important;
+        grid-gap: 20px !important;
+        align-items: center !important;
+        text-align: left !important;
+    }
+}
+
+/*Header/Cabeçalho/Banner no tablet*/
+
+@media (max-width: 1400px) {
+    .header{
+        display: block;
+        justify-content: space-between; /*Espaço entre os elementos utilizando o display flex*/
+        align-items: center; /*Alinhando itens no centro do elemento */
+        flex-wrap: wrap; /*Quando a tela for muito pequena, fazer com que fique um embaixo do outro*/
+        background-color: #d8d8b1;
+    }
+    
+    .logo {
+        margin: auto;
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
