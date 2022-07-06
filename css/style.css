@@ -85,7 +85,7 @@ img {
 }
 
 body {
-    background-image: url("../img/teste1.png");
+    background-image: url("../img/wallpaper.png");
     background-color: #d8d8b199;
 }
 
@@ -182,8 +182,23 @@ body {
 /*Conteúdo do site (GRID)*/
 
 .ursos {
-    padding: 20px 0;
-    max-width: 78%;
+    background-color: #d8d8b1de;
+    padding: 5%;
+    /*padding: 20px 0;*/
+    /*max-width: 78%;*/
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.ursos2 {
+    background-color: #bdbd89d1;
+    padding: 5%;
+    /*padding: 20px 0;*/
+    /*max-width: 78%;*/
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
