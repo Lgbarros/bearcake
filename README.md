@@ -17,7 +17,7 @@ Para visualização do projeto, pode-se conferir no link do GitHub Pages: https:
 - [ ] Melhorar o menu para dispositivos móveis e tablets;
 - [ ] Alterar o modo de exibição do menu para telas responsivas, utilizando JavaScript e fazendo o menu hamburguer. (Tablets e dispositivos móveis) 
 ##
-## Bear Cake - EN
+# Bear Cake - EN
 
 Page made for the fictional company ***Bear Cake***, in which the focus is a themed cake shop inspired by bears around the world, the project was intended to be in a virtual catalog format, where the user can view all cakes and request a quote.
 
